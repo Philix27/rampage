@@ -39,8 +39,8 @@ importers:
         specifier: ^10.17.9
         version: 10.18.0(react-dom@18.2.0)(react@18.2.0)
       hono:
-        specifier: ^4.4.5
-        version: 4.4.10
+        specifier: ^4.5.8
+        version: 4.5.8
       next:
         specifier: 14.2.5
         version: 14.2.5(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
@@ -125,7 +125,7 @@ importers:
         version: 1.12.0
       '@hono/zod-validator':
         specifier: ^0.2.2
-        version: 0.2.2(hono@4.4.10)(zod@3.23.8)
+        version: 0.2.2(hono@4.5.8)(zod@3.23.8)
       '@hookform/resolvers':
         specifier: ^3.3.4
         version: 3.9.0(react-hook-form@7.52.0)
@@ -151,8 +151,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1(drizzle-orm@0.31.2)(zod@3.23.8)
       hono:
-        specifier: ^4.4.7
-        version: 4.4.10
+        specifier: ^4.5.8
+        version: 4.5.8
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
@@ -275,8 +275,8 @@ importers:
         specifier: ^10.17.9
         version: 10.18.0(react-dom@19.0.0-rc-f994737d14-20240522)(react@19.0.0-rc-f994737d14-20240522)
       hono:
-        specifier: ^4.4.5
-        version: 4.4.10
+        specifier: ^4.5.8
+        version: 4.5.8
       next:
         specifier: 15.0.0-rc.0
         version: 15.0.0-rc.0(react-dom@19.0.0-rc-f994737d14-20240522)(react@19.0.0-rc-f994737d14-20240522)
@@ -386,6 +386,15 @@ importers:
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
+
+  packages/rpc:
+    dependencies:
+      axios:
+        specifier: 1.7.2
+        version: 1.7.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.23.8
 
   packages/typescript-config: {}
 
@@ -3084,13 +3093,13 @@ packages:
     engines: {node: '>=18.14.1'}
     dev: false
 
-  /@hono/zod-validator@0.2.2(hono@4.4.10)(zod@3.23.8):
+  /@hono/zod-validator@0.2.2(hono@4.5.8)(zod@3.23.8):
     resolution: {integrity: sha512-dSDxaPV70Py8wuIU2QNpoVEIOSzSXZ/6/B/h4xA7eOMz7+AarKTSGV8E6QwrdcCbBLkpqfJ4Q2TmBO0eP1tCBQ==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
     dependencies:
-      hono: 4.4.10
+      hono: 4.5.8
       zod: 3.23.8
     dev: false
 
@@ -9988,8 +9997,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /hono@4.4.10:
-    resolution: {integrity: sha512-z6918u9rXRU5CCisMHd2uUVoQXcNyUrUMmYY7VH10v4HJG7+hqgMK/G8YNTd13C6s4rBfzF09iz8VpOip9qG3A==}
+  /hono@4.5.8:
+    resolution: {integrity: sha512-pqpSlcdqGkpTTRpLYU1PnCz52gVr0zVR9H5GzMyJWuKQLLEBQxh96q45QizJ2PPX8NATtz2mu31/PKW/Jt+90Q==}
     engines: {node: '>=16.0.0'}
     dev: false
 
